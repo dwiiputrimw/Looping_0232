@@ -5,15 +5,20 @@ using namespace std;
 int main(){
     int x;
 
+    //Perulangan dengan FOR
+    //mencetak tulisan sebanyak 5 kali
     cout<<"PERULANGAN FOR"<<endl;
     for(int i=0;i<=4;i++){
         cout<<"Teknologi Informasi UMY"<<endl;
     }
 
     cout<<endl;
+
+    //untuk mendapatkan urutan angka acak yg berbeda
     srand(time(0));
 
-     cout<<"PERULANGAN WHILE"<<endl;
+    //Perulangan dengan WHILE
+    cout<<"PERULANGAN WHILE"<<endl;
     x = 1 + rand()%10;
 
     while(x<=5){
@@ -24,6 +29,7 @@ int main(){
     cout<<"Bilangan acak while yang terakhir ="<<x<<endl;
     cout<<endl;
 
+    //Perulangan dengan DO...WHILE
     cout<<"PERULANGAN DO...WHILE"<<endl;
     x = 1 + rand()%10;
 
@@ -68,7 +74,7 @@ int main(){
 
     cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 
-      //Logika AND
+    //Logika AND
     cout<<"Masukkan nilai Matematika = ";
     cin>>nilM;
     cout<<"Masukkan nilai Bahasa Inggris = ";
@@ -82,4 +88,6 @@ int main(){
         status = "Tidak lulus";
 
     cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
-} 
+
+    return 0;
+}
