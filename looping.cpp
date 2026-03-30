@@ -33,4 +33,9 @@ int main(){
     }while(x<=5);
 
     cout<<"Bilangan acak do-while yang terakhir ="<<x<<endl;
+    cout<<endl;
+
+    //Logika NOT
+    float nilB,nilM,rerata;
+    string status;
 } 
